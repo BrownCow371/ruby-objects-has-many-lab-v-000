@@ -15,6 +15,10 @@ class Artist
     self.songs<<song
   end
 
+  def song_by_name(name)
+      self.add_song(Song.new(name))
+  end
+
   def song_count
   end
 
