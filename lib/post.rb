@@ -13,7 +13,7 @@ class Post
   end
 
   def author_name
-    self.author!=nil ? self.author.name : nil
+    self.author != nil ? self.author.name : nil
     binding.pry
   end
 
