@@ -1,3 +1,4 @@
+require 'pry'
 class Post
   attr_accessor :author, :title
   @@all=[]
@@ -13,6 +14,7 @@ class Post
 
   def author_name
     self.author!=nil ? self.author.name : nil
+    binging.pry
   end
 
 end
